@@ -40,11 +40,20 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+A relational database stores information about objects that are in some way related to one another. Each object often has a unique identifier that is associated with it. SQL isn't a database that stores anything - rather it's the syntax by which we're able to execute dynamic queries of information from the database. 
+
+
 - [ ] Why do tables need a `primary key`?
+
+A primary key is a must because it is a way to identify each entry in a database uniquely. Without it, we wouldn't necessarily be able to easily tell apart seperate entries. 
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+This is known as a foreign key, and is used to connect the two seperate tables. 
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+You need to use an intermediary table that holds foreign keys that reference the primary key on the related tables.
 
 ## Minimum Viable Product
 
